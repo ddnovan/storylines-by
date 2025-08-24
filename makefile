@@ -6,11 +6,11 @@
 # @brief compila desde src/
 
 # Compilador
-CXX=g++-14
+CXX=g++
 # Lista de opciones de compilación
 CXXFLAGS=-std=c++23 -Wall -Wextra -Werror -Wpedantic -Wshadow -Wnon-virtual-dtor -Wold-style-cast -Wcast-align -Wunused -Woverloaded-virtual -Wconversion -Wsign-conversion -Wnull-dereference -Wdouble-promotion -Wformat=2 -Wmisleading-indentation -Wduplicated-cond -Wduplicated-branches -Wlogical-op -Wuseless-cast -fsanitize=address,undefined,leak
 # Nombre común y ejecutable
-TARGET=by
+TARGET=storylines-by
 # Lista de archivos fuente
 SRCS=$(shell find src/ -name '*.cpp')
 # Ruta de achivo compilado
