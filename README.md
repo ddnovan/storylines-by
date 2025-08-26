@@ -1,6 +1,6 @@
 # Storylines By
 
-Create or replay stories from characters, events and randomness 
+Crea o recrea historias con personajes, eventos y aleatoriedad. 
 
 ## Descripción
 
